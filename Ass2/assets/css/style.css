@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.left h1 {
+  color: white;
+  margin-bottom: 10px;
+}
+.left h3 {
+  color: rgb(90, 80, 80);
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.register-account {
+  background-color: black;
+  padding: 200px 0 150px;
+  padding-top: 200px;
+  padding-right: 0px;
+  padding-bottom: 150px;
+  padding-left: 0px;
+  width: auto;
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+}
+.login-form input {
+  width: 80%;
+  border: 1px solid #dddd;
+  padding: 8px;
+  margin: 1px;
+  border-radius: 0;
+  margin-bottom: 15px;
+}
+
+.login-form {
+  margin-bottom: 30px;
+  width: 90%;
+}
+.signform {
+  background-color: black;
+  padding-bottom: 40px;
+  padding-top: 35px;
+  margin: 0 auto;
+  margin-top: auto;
+}
+.bts {
+  padding: 5px;
+  margin: 5px 0;
+  margin-top: 3px;
+}
+.bts-a:hover {
+  color: #79b42b;
+  text-decoration: none;
+  background: white;
+}
+.bts span {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  font-style: normal;
+}
+.social {
+  margin-top: 12px;
+  border: none;
+  display: block;
+  color: #ffffff;
+  height: 50px;
+  line-height: 50px;
+  width: 80%;
+  text-decoration: none;
+  text-align: center;
+}
+.goologin {
+  background-color: rgb(90, 80, 80);
+}
+.goologin:hover {
+  background-color: black;
+}
+.gitlogin {
+  background-color: rgb(90, 80, 80);
+}
+.gitlogin:hover {
+  background-color: black;
+}
+.fblogin {
+  background-color: rgb(90, 80, 80);
+}
+.fblogin:hover {
+  background-color: black;
+}
+
+.subbt:hover {
+  background-color: #79b42b;
+}
+.subbt {
+  background-color: #15c02c;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-style: normal;
+}
+.right a {
+  position: relative;
+  color: #b6b6b6;
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+.right a:hover {
+  text-decoration: underline;
+}
+.bts a:hover {
+  text-decoration: none;
+  color: white;
+}
